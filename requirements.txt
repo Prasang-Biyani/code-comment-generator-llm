@@ -8,6 +8,7 @@ requests==2.31.0      # For GitHub API calls
 pandas==2.1.1         # Data manipulation and cleaning (you’re likely familiar with this)
 numpy==1.26.1         # Basic numerical operations
 urllib3<2.0           # Required by requests
+datasets==2.15.0      # Hugging Face Datasets for prebuilt datasets (e.g., CodeSearchNet)
 
 # Optional: Development and utilities
 tqdm==4.66.1          # Progress bars for long-running tasks (e.g., data fetching)
