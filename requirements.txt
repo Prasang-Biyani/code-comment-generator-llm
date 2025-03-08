@@ -1,0 +1,16 @@
+# Core ML and LLM dependencies
+transformers==4.35.2  # Hugging Face Transformers for LLMs (e.g., CodeBERT, GPT-Neo)
+torch==2.1.0          # PyTorch for model training and inference
+datasets==2.15.0      # Hugging Face Datasets for prebuilt datasets (e.g., CodeSearchNet)
+
+# Data fetching and processing
+requests==2.31.0      # For GitHub API calls
+pandas==2.1.1         # Data manipulation and cleaning (you’re likely familiar with this)
+numpy==1.26.1         # Basic numerical operations
+
+# Optional: Development and utilities
+tqdm==4.66.1          # Progress bars for long-running tasks (e.g., data fetching)
+python-dotenv==1.0.0  # For managing GitHub API token via .env file (optional security)
+
+# Optional: Evaluation metrics (if you want to score comment quality)
+nltk==3.8.1           # For BLEU/ROUGE scoring
