@@ -2,6 +2,7 @@
 transformers==4.35.2  # Hugging Face Transformers for LLMs (e.g., CodeBERT, GPT-Neo)
 torch==2.1.0          # PyTorch for model training and inference
 datasets==2.15.0      # Hugging Face Datasets for prebuilt datasets (e.g., CodeSearchNet)
+accelerate>=0.20.1    # For distributed training (optional)
 
 # Data fetching and processing
 requests==2.31.0      # For GitHub API calls
